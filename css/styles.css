@@ -995,7 +995,7 @@ color: var(--text-color-grey);
   transition: border-color
   var(--transition-timing-function),
   background-color var(--transition-timing-function);
-  background-image: url(../images/sprite_svg/project-icons.svg#check);
+  background-image: url(../images/check.svg);
   background-repeat:no-repeat;
   background-size: cover;
   /* background-position: center; */
