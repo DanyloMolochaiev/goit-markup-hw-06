@@ -92,6 +92,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--text-color-blue);
 }
+
 header .logostudio {
     font-family: 'Raleway';
 font-style: normal;
@@ -101,6 +102,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--logo-color-black);
 }
+
 footer .logostudio {
     font-family: 'Raleway';
 font-style: normal;
@@ -110,6 +112,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--color-white);
 }
+
 /* Header, footer background */
 .page-header {
     border-bottom: 1px solid #ECECEC;
@@ -145,6 +148,7 @@ transition: color
     transition: color
   var(--transition-timing-function);
 }
+
 .contact-link {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -173,36 +177,43 @@ align-items: center;
 .adress:focus {
     color: var(--text-color-blue);
   }
+
 /* Налаштування main-nav */
 .main-nav {
     display: flex;
     align-items: center;
     }
+
     .header-nav {
         display: flex;
 align-items: center;
     }
+
 /* Налаштування посилань сторінок header */
 
 .nav-list {
     display: flex;
     margin-left: 93px;
 }
+
 .nav-list .nav-item + .nav-item {
         margin-left: 50px;
         
 }
+
 .nav-list .nav-link {
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
     }
+
 /* Налаштування контактів header */
 .contact-list {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
+
 .contact-list .contact-item + .contact-item {
     margin-left: 50px;   
 }
@@ -233,8 +244,6 @@ align-items: center;
     }
    
 .hero-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.45;
@@ -244,6 +253,7 @@ text-transform: uppercase;
 color: var(--color-white);
 margin-bottom: 30px;
 }
+
 /* Налаштування кнопки order */
 .button-order {
 background: var(--text-color-blue);
@@ -251,8 +261,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border-color: transparent;
 color: var(--color-white);
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -271,10 +279,9 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 .button-order:focus {
 background-color: var(--color-hover-button);
 }
+
 /* Налаштування секції main */
 .main-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -282,9 +289,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 10px;
 }
+
 .main-about {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -313,8 +319,6 @@ width: 270px;
 
 /* Налаштування секції services */
 .services-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -322,19 +326,19 @@ text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 50px;
 }
+
 .services-item {
-    /* display: flex; */
     position: relative;
 }
+
 .services-list {
     display: flex;
     position: relative;
   }
+
 .services-list .services-item + .services-item {
     margin-left: 30px;
 }
-
-
 
 .services-text {
     display: flex;
@@ -380,16 +384,12 @@ border-radius: 0px 0px 4px 4px;
     margin-left: 30px;
 }
 .team h3 {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .team p {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
@@ -465,8 +465,6 @@ padding-bottom: 30px;
 
 
 .adress {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -477,8 +475,6 @@ transition: color
 }
 
 .footer-link {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -497,8 +493,6 @@ transition: color
     margin-bottom: 20px;
 }
 .join-us-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -608,7 +602,7 @@ border-radius: 4px;
 }
 
 .subscribe-button-text{
-  margin-right: 10px;
+margin-right: 10px;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
@@ -670,8 +664,6 @@ border-radius: 4px;
 
 /* Налаштування секції клієнтів */
 .customers-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -780,12 +772,10 @@ margin-bottom: 30px;
   padding: 63px 24px;
   background-color: var(--color-anim);
   color: var(--color-white);
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 1.56;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
   top: 0;
   left: 0;
   transform: translateY(100%);
@@ -800,8 +790,6 @@ margin-bottom: 30px;
     margin-bottom: 0;
 }
 .samples-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -810,8 +798,6 @@ color: var(--text-color-black);
 }
 
 .samples-par{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
@@ -827,20 +813,15 @@ color: var(--text-color-grey);
 
 .backdrop{
   position: fixed;
-
   width: 100%;
   height: 100%;
-
   left: 0px;
   top: 0px;
-
   background: var(--color-overlay-modal);
-
   opacity: 1;
-
   transition: opacity var(--transition-timing-function);
-
 }
+
 
 .backdrop.is-hidden{
   opacity: 0;
@@ -855,6 +836,7 @@ color: var(--text-color-grey);
   position: absolute;
   width: 528px;
   height: 581px;
+  padding: 40px 39px 40px 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -872,7 +854,7 @@ color: var(--text-color-grey);
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: var(--color-modal-button);
+ border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--color-white);
   right: 8px;
   top: 8px;
@@ -880,18 +862,19 @@ color: var(--text-color-grey);
   cursor: pointer;
   padding: 0;
   transition: background-color var(--transition-timing-function-close),
-  fill var(--transition-timing-function-close),
+  color var(--transition-timing-function-close),
   transform var(--transition-timing-function-close),  border var(--transition-timing-function-close);
 }
 
+.backdrop-svg {
+    width: 11px;
+    height: 11px;
+    fill: currentColor;
+  }
+
 .modal-button:hover{
-  transform: perspective(30px) rotateY(360deg);
-  fill: var(--color-modal-close);
-  background-color: var(--color-modal-lightbutton);
-  border: var(--color-modal-button);
+  color: var(--color-hover-button);
 }
-
-
 
 
 .register-form-user {
@@ -920,7 +903,7 @@ color: var(--text-color-grey);
   height: 23px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   justify-content: center;
   letter-spacing: 0.03em;
@@ -928,10 +911,11 @@ color: var(--text-color-grey);
 }
 
 .register-position{
+position: absolute;
   width: 100%;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--text-color-grey);
   transform: translateY(-120%);
@@ -998,14 +982,12 @@ color: var(--text-color-grey);
   background-image: url(../images/check.svg);
   background-repeat:no-repeat;
   background-size: cover;
-  /* background-position: center; */
-}
+  }
 
 .consent-checkbox:checked + .consent-consent-mail-checkbox {
   border-color: transparent;
   background-color: var(--text-color-blue);
-  /* background-image: url(../img/check.svg); */
-  background-size: contain;
+    background-size: contain;
   background-origin: border-box;
 }
 
@@ -1068,11 +1050,9 @@ color: var(--text-color-grey);
 }
 
 .modal-btn-submit-send{
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
 }
 
