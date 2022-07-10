@@ -398,7 +398,21 @@
     </li>
                     </ul>
 </div>
-</div>
+    <div class="footer-subscribe">
+        <p class="subscribe-title">Подпишитесь на рассылку</p>
+        <form class="subscribe-form" autocomplete="off">
+          <input class="subscribe-input" type="email" name="subscribe" placeholder="E-mail" pattern=".+@globex\.com"
+            size="30" required />
+          <button class="button-order subscribe-button" type="submit">
+            <span class="subscribe-button-text">Подписаться</span>
+            <svg class="subscribe-svg" width="24" height="24">
+              <use class="subscribe-use" href="./images/sprite_svg/project-icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      </div>
+
     </footer>
 
 <div class="backdrop is-hidden" data-modal>
@@ -410,6 +424,50 @@
         </svg>
       </button>
       <!-- </div> -->
+      <form class="register-form">
+        <label class="register-form-user">
+          <strong class="register-position-text">
+            Оставьте свои данные, мы вам перезвоним
+          </strong>
+        </label>
+
+        <label class="register-form-user">
+          <span class="register-position">Имя</span>
+          <input class="register-position-input" type="text" name="user-name">
+          <svg class="register-btn-person">
+            <use class="modal-btn-use" href="./images/sprite_svg/project-icons.svg#icon-person"></use>
+          </svg>
+        </label>
+        <label class="register-form-user">
+          <span class="register-position">Телефон</span>
+          <input class="register-position-input" type="tel" name="user-name-tel">
+          <svg class="register-btn-person">
+            <use class="modal-btn-use" href="./images/sprite_svg/project-icons.svg#icon-phone"></use>
+          </svg>
+        </label>
+        <label class="register-form-user">
+          <span class="register-position">Почта</span>
+          <input class="register-position-input" type="email" name="user-name-email" pattern=".+@globex\.com" size="30"
+            required>
+          <svg class="register-btn-person">
+            <use class="modal-btn-use" href="./images/sprite_svg/project-icons.svg#icon-e-mail"></use>
+          </svg>
+        </label>
+        <label class="register-form-user coments">
+          <span class="register-position">Комментарий</span>
+          <textarea class="coments register-position-input" name="user-name-text"
+            placeholder="Введите текст"></textarea>
+        </label>
+        <label class="consent-user">
+          <input class="consent-checkbox" type="checkbox" name="policy" value="policy">
+          <span class="consent-consent-mail-checkbox"></span>Соглашаюсь с рассылкой и принимаю
+          <a class="consent-mail" href="https://goit.ua/agreement/" target="blank" rel="noopener noreferrer">Условия
+            договора</a>
+        </label>
+               <button class="modal-btn-submit" type="submit">
+          <span class="modal-btn-submit-send">Отправить</span>
+        </button>
+      </form>
     </div>
   </div>
 
